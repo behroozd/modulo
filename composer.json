@@ -1,0 +1,25 @@
+{
+	"name":"behrooz/modulo-three",
+    "description":"Modulo Three",
+    "authors": [
+        {
+            "name": "Behrooz Darabiha",
+            "email": "behroozd@yahoo.com"
+        }
+    ],	
+    "autoload": {
+        "classmap": [
+            "moduloThreeSE/",
+            "moduloThreeAE/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "require": {
+        "php": ">=7.2.24"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }}
